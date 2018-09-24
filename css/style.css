@@ -4,27 +4,30 @@ body{
 header{
     width: 100%;
     text-align: center;
-    font-family: 'Pacifico', cursive;
 }
-.banner{
+figure{
     width: 100%;  
 }
-.banner img{
+figure img{
     height: 30%;
     width:100%;
 }
+form{
+    font-family:'Pacifico', cursive;
+}
 .formulario{
-    text-align: center;
+    text-align:center;
 }
 .buscador{
     border:solid 1px black;
-    padding: 5px;
+    padding: 10px;
+    width:25%;
 }
 .boton{
-    background-color: pink;
+    background-color:pink;
     border-radius: 5px;
     border: none;
-    width: 35%;
+    width: 10%;
     padding: 10px;
     color: white;
 }
@@ -37,11 +40,11 @@ header{
     font-size: 50px;
     margin: 10px;
 }
-.pie{
+footer{
     width: 100%;
     text-align: center;
 }
-.pie p span{
+footer p span{
     color: pink;
 
 }
@@ -49,7 +52,12 @@ header{
     .redes{
     text-align: right;
     }
-    .pie p{
-        margin-top: 150px;
+    form{
+        display: flex;
+        justify-content:center;
+
+    }
+    footer p{
+        position: unset;
     }
 }
